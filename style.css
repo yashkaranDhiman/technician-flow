@@ -544,10 +544,13 @@
     color: #01ffff;
   }
   #name  h2{
-    font-size: 18vw;
+    font-size: 19vw;
     letter-spacing: -10px;
     font-weight: 400;
     font-family: 'head';
+  }
+  #name h2 img{
+    width: 60vw;
   }
   #links{
     display: flex;
@@ -776,13 +779,13 @@
       margin-bottom: 12vw;
     }
     #left-footer h4{
-      font-size: 4vw;
+      font-size: 8vw;
     }
     #right-footer h5{
-      font-size: 3.5vw;
+      font-size: 7vw;
     }
     #links h4{
-      font-size: 3vw;
+      font-size: 4vw;
     }
     #page2-main{
       display: none;
@@ -941,12 +944,19 @@
         height: 12vw;
       }
   }
-  @media screen and (max-width:400px) {
+  @media screen and (max-width:500px) {
       #page1-main-text-res h2{
-        font-size: 14vw;
-        line-height: 20vw;
+        font-size: 16vw;
+        line-height: 25vw;
         font-family: 'head';
         white-space: wrap;
+      }
+      #page2-heading{
+        display: flex;
+        text-align: center;
+      }
+      #page3,#page4{
+        height: 70vh;
       }
       #page1-main-text-res h2 img{
         width: 30vw;
@@ -959,5 +969,14 @@
       }
       .start-project h2, .start-project i{
         font-size: 5vw;
+      }
+      #name h2{
+        font-size: 100vw;
+      }
+      #name h2 img{
+        width: 95vw;
+      }
+      #name{
+        margin-bottom: 20vw;
       }
   }
